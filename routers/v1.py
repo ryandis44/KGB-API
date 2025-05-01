@@ -101,14 +101,12 @@ async def get_bot(
     
     '''
     
-    user = Bot(bot_id=bot_id)
-    await user.ainit()
-    
     bot = Bot(bot_id=bot_id)
     await bot.ainit()
     
     response = {
-        "name": "Pneuma",
+        "bot_id": bot.bot_id,
+        "access_list": bot.access_list
     }
     
     return response
