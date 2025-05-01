@@ -6,7 +6,6 @@ Users v1 endpoint
 
 import logging
 
-from auth.v1 import v1_oauth2_scheme, v1_check_api_token
 from Bots.Bots import Bot # Bot class
 from Database.MySQL import AsyncDatabase # Database connection
 from fastapi import APIRouter, HTTPException, Depends, Header
