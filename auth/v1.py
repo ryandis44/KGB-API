@@ -4,16 +4,8 @@ import os
 from Database.tunables import tunables
 from fastapi import Header, HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from keycloak import KeycloakOpenID, KeycloakAdmin
 from dotenv import load_dotenv
 load_dotenv()
-
-
-
-v1_oauth2_scheme = OAuth2PasswordBearer(
-    tokenUrl="token",
-    description="Keycloak token for authentication"
-)
 
 
 
