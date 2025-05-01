@@ -1,0 +1,28 @@
+2025-04-30 23:46:29,941:INFO:root:MySQL.py:26: Resolved DNS name to IP: 10.0.0.10
+2025-04-30 23:46:29,942:DEBUG:root:MySQL.py:138: [NON-ASYNC] Attempting database connection via LAN...
+2025-04-30 23:46:29,942:DEBUG:root:MySQL.py:139: Connecting with params:
+IP: 10.0.0.10
+Port: 3306
+DB User: kgb_testing
+DB Pass: Q67*****
+DB: kgb_testing
+2025-04-30 23:46:29,990:DEBUG:mysql.connector:authentication.py:127: Building SSL context
+2025-04-30 23:46:30,014:DEBUG:mysql.connector:authentication.py:138: Switching to SSL
+2025-04-30 23:46:30,020:DEBUG:mysql.connector:authentication.py:141: SSL has been enabled
+2025-04-30 23:46:30,020:DEBUG:mysql.connector:protocol.py:342: Starting authorization phase
+2025-04-30 23:46:30,020:DEBUG:mysql.connector:protocol.py:356: The provided initial strategy is mysql_native_password
+2025-04-30 23:46:30,020:INFO:mysql.connector:__init__.py:149: package: mysql.connector.plugins
+2025-04-30 23:46:30,020:INFO:mysql.connector:__init__.py:150: plugin_name: mysql_native_password
+2025-04-30 23:46:30,021:INFO:mysql.connector:__init__.py:154: AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-04-30 23:46:30,021:DEBUG:mysql.connector:authentication.py:276: mysql_native_password completed succesfully
+2025-04-30 23:46:30,022:INFO:root:MySQL.py:156: [NON-ASYNC] Connected to database via LAN!
+2025-04-30 23:46:30,025:INFO:root:MySQL.py:26: Resolved DNS name to IP: 10.0.0.10
+2025-04-30 23:46:30,026:DEBUG:root:MySQL.py:39: Attempting asynchronous database connection via LAN...
+2025-04-30 23:46:30,026:DEBUG:root:MySQL.py:40: Connecting with params:
+IP: 10.0.0.10
+Port: 3306
+DB User: kgb_testing
+DB Pass: Q67*****
+DB: kgb_testing
+Event Loop: <ProactorEventLoop running=True closed=False debug=False>
+2025-04-30 23:46:30,027:INFO:root:MySQL.py:59: Connected to asynchronous database via LAN!

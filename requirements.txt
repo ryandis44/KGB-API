@@ -1,0 +1,6 @@
+fastapi==0.115.6
+gunicorn==23.0.0
+uvicorn==0.34.0
+aiomysql==0.2.0 # async database
+mysql-connector-python==8.3.0 # initial tunables
+dnspython==2.6.1 # IP resolver
