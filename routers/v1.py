@@ -34,9 +34,11 @@ Users
 
 @v1.get(
     path="/users/{user_id}",
-    summary="Request user data",
+    summary="(NOT YET IMPLEMENTED) Request user data",
     name="Users Object Endpoint",
-    tags=["Users"]
+    tags=["Users"],
+    deprecated=True,
+    status_code=501
 )
 async def get_bot(
     
@@ -47,6 +49,10 @@ async def get_bot(
     api_token: bool = Depends(v1_check_api_token)
 
 ) -> dict:
+    
+    return {
+        'detail': 'Not Yet Implemented'
+    }
     
     '''
     
